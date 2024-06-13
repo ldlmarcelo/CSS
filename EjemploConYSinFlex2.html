@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejemplo con Flexbox y sin Flexbox</title>
+<style>
+  .flex-container {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px; /* Espacio entre los ejemplos */
+  }
+  .non-flex-container {
+    justify-content: space-around;
+    align-items: center;
+    height: 200px;
+    background-color: #f0f0f0;
+    margin-bottom: 20px; /* Espacio entre los ejemplos */
+    
+  }
+
+  .flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px; /* Espacio entre los elementos */
+  }
+
+  .non-flex-item {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px; /* Espacio entre los elementos */
+  }
+</style>
+</head>
+<body>
+
+<h2>Ejemplo con Flexbox</h2>
+<div class="flex-container">
+  <div class="flex-item">1</div>
+  <div class="flex-item">2</div>
+  <div class="flex-item">3</div>
+</div>
+
+<h2>Ejemplo sin Flexbox</h2>
+<div class="non-flex-container">
+  <div class="non-flex-item">1</div>
+  <div class="non-flex-item">2</div>
+  <div class="non-flex-item">3</div>
+</div>
+
+</body>
+</html>

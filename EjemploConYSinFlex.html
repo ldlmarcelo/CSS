@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <style>
+        /* Estilos generales */
+        body {
+            font-family: Arial, sans-serif;
+            line-height: 1.6;
+            margin: 20px;
+        }
+        h2 {
+            margin-bottom: 10px;
+        }
+        p {
+            margin-bottom: 20px;
+        }
+
+        /* Estilos para Flexbox */
+        .container-flex {
+            display: flex;
+            justify-content: space-around;
+            align-items: center;
+            height: 200px;
+            background-color: lightblue;
+            margin-bottom: 20px;
+        }
+        .item-flex {
+            width: 100px;
+            height: 100px;
+            background-color: lightcoral;
+            text-align: center;
+            line-height: 100px;
+            font-size: 20px;
+        }
+
+        /* Estilos sin Flexbox */
+        .container-no-flex {
+            background-color: lightgray;
+            height: 200px;
+            margin-bottom: 20px;
+            text-align: center;
+        }
+        .item-no-flex {
+            width: 100px;
+            height: 100px;
+            background-color: lightgreen;
+            text-align: center;
+            line-height: 100px;
+            font-size: 20px;
+            display: inline-block;
+            margin: 10px;
+        }
+    </style>
+    <title>Ejemplos con y sin Flexbox</title>
+</head>
+<body>
+    <h2>Ejemplo con Flexbox</h2>
+    <div class="container-flex">
+        <div class="item-flex">1</div>
+        <div class="item-flex">2</div>
+        <div class="item-flex">3</div>
+    </div>
+
+    <h2>Ejemplo sin Flexbox</h2>
+    <div class="container-no-flex">
+        <div class="item-no-flex">1</div>
+        <div class="item-no-flex">2</div>
+        <div class="item-no-flex">3</div>
+    </div>
+
+    <p>Aquí están los dos ejemplos mostrados juntos para comparación.</p>
+</body>
+</html>

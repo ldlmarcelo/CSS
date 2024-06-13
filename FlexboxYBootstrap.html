@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Ejemplo con Bootstrap</title>
+<!-- Incluir Bootstrap CSS -->
+<link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" rel="stylesheet">
+<style>
+  .custom-container {
+    margin-bottom: 20px; /* Espacio entre los ejemplos */
+  }
+  
+  .custom-item {
+    width: 100px;
+    height: 100px;
+    background-color: #3498db;
+    color: white;
+    text-align: center;
+    line-height: 100px;
+    margin: 10px; /* Espacio entre los elementos */
+  }
+</style>
+</head>
+<body>
+
+<div class="container custom-container">
+  <h2>Ejemplo con Bootstrap</h2>
+  <div class="d-flex justify-content-around align-items-center bg-light p-4">
+    <div class="custom-item">1</div>
+    <div class="custom-item">2</div>
+    <div class="custom-item">3</div>
+  </div>
+</div>
+
+<div class="container custom-container">
+  <h2>Ejemplo sin Flexbox (Bootstrap)</h2>
+  <div class="text-center bg-light p-4">
+    <div class="custom-item d-inline-block mx-3">1</div>
+    <div class="custom-item d-inline-block mx-3">2</div>
+    <div class="custom-item d-inline-block mx-3">3</div>
+  </div>
+</div>
+
+<!-- Incluir Bootstrap JS (opcional) -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"></script>
+</body>
+</html>
